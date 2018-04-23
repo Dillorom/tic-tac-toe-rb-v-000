@@ -50,7 +50,7 @@ def turn(board)
   index = input.to_i - 1
 
   if valid_move?(board, index)
-    move(board, index, user_input)
+    move(board, index, player_character)
     display_board(board)
   elsif
     turn(board)
