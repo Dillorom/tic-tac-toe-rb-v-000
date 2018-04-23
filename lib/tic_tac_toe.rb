@@ -97,3 +97,9 @@ end
 def over?(board)
   draw?(board) || won?(board)
 end
+
+def winner?(board)
+  if won?(board)
+    board(won?(board[0]))
+  end
+end
