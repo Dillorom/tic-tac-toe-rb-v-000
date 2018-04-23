@@ -26,5 +26,5 @@ end
 
 def move(board, position, player_token)
   end
-  move(board[0], "O")
-  move(board[8], "X")
+  move(board[0],1, "O")
+  move(board[8],9, "X")
