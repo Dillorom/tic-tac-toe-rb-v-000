@@ -39,7 +39,7 @@ def position_taken?(board, position)
 end
 
 def valid_move?(board, position)
-   if board[position] && !position_taken?(board, position)
+   if board[position] && position_taken?(board, position) == false
      true
    elsif
      false
