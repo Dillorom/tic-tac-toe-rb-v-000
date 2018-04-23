@@ -53,7 +53,6 @@ def turn(board)
     display_board(board)
   else turn(board)
   end
-
 end
 
 def turn_count(board)
@@ -61,5 +60,6 @@ def turn_count(board)
   board.count do |count|
     if count != " "
       counter+=1
+    end
   end
 end
