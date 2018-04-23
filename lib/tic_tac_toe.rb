@@ -49,7 +49,7 @@ def turn(board)
   input = gets.strip
   index = input.to_i - 1
 
-  if valid_move?
+  if valid_move?(board, index)
     move(board,position, player_token)
     display_board(board)
   elsif
