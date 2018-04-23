@@ -55,3 +55,10 @@ def turn(board)
   end
 
 end
+
+def turn_count(board)
+  counter = 0
+  if turn(board).count
+    counter+=1
+  end
+end
