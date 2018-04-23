@@ -39,5 +39,6 @@ def position_taken?(board, position)
 end
 
 def valid_move?(board)
-  position.between?(9) && position_taken?
+  position.between?(1,9) 
+  
 end
