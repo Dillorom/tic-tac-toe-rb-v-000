@@ -111,7 +111,7 @@ def play(board)
   end
 
   if won?(board)
-    break 
+    break
     puts "Congratulations #{winner(board)}!"
   elsif draw?(board)
     break
