@@ -38,7 +38,7 @@ def position_taken?(board, position)
   end
 end
 
-def valid_move?(board)
+def valid_move?(board, position)
    board[position] && position_taken?(board, position) == false
 
 end
