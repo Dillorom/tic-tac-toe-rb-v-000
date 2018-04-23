@@ -21,6 +21,6 @@ end
 display_board(board)
 
 def input_to_index(board)
-  input.gets.strip
+  input = gets.strip
   index = input.to_i - 1
 end
