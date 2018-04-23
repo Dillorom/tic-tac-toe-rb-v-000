@@ -114,4 +114,3 @@ def play(board)
     puts "It has been a draw."
   end
 end
-  
