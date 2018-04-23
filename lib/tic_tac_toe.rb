@@ -29,3 +29,7 @@ def move(board, position, player_token)
   end
   move(board, 0, "O")
   move(board, 8, "X")
+
+def position_taken?(board, index)
+  board[index] = "X" || board[index] = "O"
+end
