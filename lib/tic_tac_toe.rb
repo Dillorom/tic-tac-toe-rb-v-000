@@ -58,7 +58,8 @@ end
 
 def turn_count(board)
   counter = 0
-  if turn(board).count
-    counter+=1
+  board.count do |count|
+    if count != " "
+      counter+=1
   end
 end
