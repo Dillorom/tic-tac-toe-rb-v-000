@@ -40,4 +40,7 @@ end
 
 def valid_move?(board)
   position.between?(1,9) && position_taken?
+  true
+else
+  false
 end
